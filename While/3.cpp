@@ -1,0 +1,24 @@
+// Check whether a number is prime or not ?
+#include <iostream>
+
+using namespace std;
+
+int main (){
+
+    int n ;
+    cout << "Number?"<< endl << ":";
+    cin >>n;
+
+    int i = 2;
+
+    while(i<n){
+        if (n%i==0){
+            cout <<"Not Prime for "<<i<<endl;
+        }
+        else{
+            cout<<"Prime for "<<i<< endl;
+        }
+        i=i+1;
+    }
+
+}
